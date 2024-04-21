@@ -12,6 +12,4 @@ import { HeaderComponent } from './header/header.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  playlistId1: string = 'PLsieoErhQydfwewteOlvSpNXAxduTz612'
-  playlistId2: string = 'PLEVDfVkikQGFb7E-ymnsxA4X0eOB-FJc_'
 }

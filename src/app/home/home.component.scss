@@ -1,0 +1,18 @@
+header {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+mat-icon {
+  $icon-size: 48px;
+  width: $icon-size;
+  height: $icon-size;
+  font-size: $icon-size;
+}

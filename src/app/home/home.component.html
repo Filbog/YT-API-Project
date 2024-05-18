@@ -1,3 +1,16 @@
+<header>
+  <h1>Music Library</h1>
+  <div class="icon-container">
+    <mat-icon>library_music</mat-icon>
+  </div>
+</header>
 <p>home works!</p>
 Playlist Title:
 <h1>{{ playlistName1 }}</h1>
+<div *ngFor="let item of playlistItems">
+  <!-- Display properties of the item here. For example: -->
+  <a [href]="'video?id=' + item.snippet.resourceId.videoId">  <h2>{{ item.snippet.title | json }}</h2>
+  </a>
+  <h2>{{ item.snippet.resourceId.videoId }}</h2>
+  <p>{{ item.kind }}</p>
+</div>
